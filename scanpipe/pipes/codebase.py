@@ -65,10 +65,10 @@ class ProjectCodebase:
         assert isinstance(project, Project)
         self.project = project
 
-    @property
-    def root(self):
+    def roots(self):
         try:
-            return self.project.codebaseresources.get(path="codebase")
+            for starting_path in self.project.get_starting_paths():
+                yield self.project.codebaseresources.get(path=str(starting_path))
         except ObjectDoesNotExist:
             raise AttributeError("Codebase root cannot be determined.")
 
@@ -77,13 +77,13 @@ class ProjectCodebase:
         return self.project.codebaseresources.all()
 
     def walk(self, topdown=True):
-        root = self.root
-        if topdown:
-            yield root
-        for resource in root.walk(topdown=topdown):
-            yield resource
-        if not topdown:
-            yield root
+        for root in self.roots():
+            if topdown:
+                yield root
+            for resource in root.walk(topdown=topdown):
+                yield resource
+            if not topdown:
+                yield root
 
     def get_tree(self):
         return get_tree(self.root, fields=["name", "path"])

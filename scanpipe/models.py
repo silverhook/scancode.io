@@ -51,6 +51,7 @@ from django.utils.functional import cached_property
 from django.utils.text import slugify
 from django.utils.translation import gettext_lazy as _
 
+import attr
 import django_rq
 import redis
 import requests
@@ -71,6 +72,25 @@ from scanpipe.packagedb_models import AbstractResource
 
 logger = logging.getLogger(__name__)
 scanpipe_app = apps.get_app_config("scanpipe")
+
+
+@attr.s(str=False)
+class ResourcePath:
+    root = attr.ib(type=Path)
+    path = attr.ib(type=Path, default=attr.Factory(Path))
+
+    @property
+    def location(self):
+        return self.root / self.path
+
+    def __str__(self):
+        return str(self.path)
+
+    def iterdir(self):
+        if self.location.is_dir():
+            for path in self.location.iterdir():
+                relative_path = Path(path).relative_to(self.root)
+                yield ResourcePath(root=self.root, path=relative_path)
 
 
 class RunInProgressError(Exception):
@@ -669,6 +689,16 @@ class Project(UUIDPKModel, ExtraDataFieldMixin, models.Model):
         output_files = sorted(self.output_path.glob(f"*{filename}*.json"))
         if output_files:
             return output_files[-1]
+
+    def get_starting_paths(self):
+        """
+        Returns a generator of starting paths ResourcePath objects. The starting
+        Paths are relative to the codebase/ directory.
+
+        A starting path is a file or directory immediatly under the codebase/
+        directory.
+        """
+        return ResourcePath(self.codebase_path).iterdir()
 
     def walk_codebase_path(self):
         """
@@ -1484,11 +1514,14 @@ class CodebaseResource(
 
         return new
 
-    def save(self, *args, **kwargs):
+    def save(self, codebase=None, *args, **kwargs):
         """
         Saves the current resource instance.
         Injects policies—if the feature is enabled—when the `licenses` field value is
         changed.
+
+        `codebase` is not used in this context but required for compatibility
+        with the commoncode.resource.VirtualCodebase class API.
         """
         if scanpipe_app.policies_enabled:
             loaded_licenses = getattr(self, "loaded_licenses", [])
@@ -1606,12 +1639,15 @@ class CodebaseResource(
             .order_by(Lower("path"))
         )
 
-    def walk(self, topdown=True):
+    def walk(self, codebase=None, topdown=True):
         """
         Returns all descendant Resources of the current Resource; does not include self.
 
         Traverses the tree top-down, depth-first if `topdown` is True; otherwise
         traverses the tree bottom-up.
+
+        `codebase` is not used in this context but required for compatibility
+        with the commoncode.resource.VirtualCodebase class API.
         """
         for child in self.children().iterator():
             if topdown:
