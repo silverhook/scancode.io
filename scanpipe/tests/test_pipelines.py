@@ -450,8 +450,8 @@ class PipelinesIntegrationTest(TestCase):
         exitcode, out = pipeline.execute()
         self.assertEqual(0, exitcode, msg=out)
 
-        self.assertEqual(2302, project1.codebaseresources.count())
-        self.assertEqual(8, project1.discoveredpackages.count())
+        self.assertEqual(456, project1.codebaseresources.count())
+        self.assertEqual(4, project1.discoveredpackages.count())
 
         result_file = output.to_json(project1)
         expected_file = self.data_location / "gcr_io_distroless_base_scan_codebase.json"
