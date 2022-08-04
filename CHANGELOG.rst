@@ -89,6 +89,16 @@ v31.0.0 (next)
   Refine the annotation using the new className instead of type.
   https://github.com/nexB/scancode.io/issues/495
 
+- Update application Package scanning step to reflect the updates in
+  scancode-toolkit package scanning.
+
+  - Package data detected from a file are now stored on the
+    CodebaseResource.package_data field.
+  - A second processing step is now done after scanning for Package data, where
+    Package Resources are determined and DiscoveredPackages are created.
+
+  https://github.com/nexB/scancode.io/issues/444
+
 v30.2.0 (2021-12-17)
 --------------------
 
