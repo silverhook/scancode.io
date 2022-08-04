@@ -91,7 +91,7 @@
       "status": "no-licenses",
       "tag": "img-592e8d-layer-01-887ac3",
       "type": "file",
-      "name": "libcrypto.so.1.0",
+      "name": "libcrypto.so.1.0.0",
       "extension": ".0",
       "programming_language": "",
       "mime_type": "application/x-sharedlib",
@@ -99,7 +99,8 @@
       "is_text": false,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -117,7 +118,7 @@
       "status": "no-licenses",
       "tag": "img-592e8d-layer-01-887ac3",
       "type": "file",
-      "name": "libssl.so.1.0",
+      "name": "libssl.so.1.0.0",
       "extension": ".0",
       "programming_language": "",
       "mime_type": "application/x-sharedlib",
@@ -125,7 +126,8 @@
       "is_text": false,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -143,7 +145,7 @@
       "status": "no-licenses",
       "tag": "img-592e8d-layer-01-887ac3",
       "type": "file",
-      "name": "pkgdata",
+      "name": "pkgdata.inc",
       "extension": ".inc",
       "programming_language": "PHP",
       "mime_type": "text/plain",
@@ -151,7 +153,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     }
   ]
 }

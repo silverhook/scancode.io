@@ -68,6 +68,24 @@ v31.0.0 (next)
   https://github.com/nexB/scancode.io/issues/164
   https://github.com/nexB/scancode.io/issues/464
 
+- Update application Package scanning step to reflect the updates in
+  scancode-toolkit package scanning.
+
+  - Package data detected from a file are now stored on the
+    CodebaseResource.package_data field.
+  - A second processing step is now done after scanning for Package data, where
+    Package Resources are determined and DiscoveredPackages are created.
+
+  https://github.com/nexB/scancode.io/issues/444
+
+- CodebaseResource.name now contains both the bare file name with extension, as
+  opposed to just the bare file name without extension.
+
+  - Using a name stripped from its extension was something that was not used in
+    other AboutCode project or tools.
+
+  https://github.com/nexB/scancode.io/issues/467
+
 v30.2.0 (2021-12-17)
 --------------------
 

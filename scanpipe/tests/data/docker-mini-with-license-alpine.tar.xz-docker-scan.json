@@ -867,7 +867,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -893,7 +894,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -919,7 +921,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -939,7 +942,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-4a6a0840.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "text/plain",
@@ -947,7 +950,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -967,7 +971,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-5243ef4b.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "text/plain",
@@ -975,7 +979,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -995,7 +1000,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-5261cecb.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "text/plain",
@@ -1003,7 +1008,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1023,7 +1029,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-6165ee59.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "text/plain",
@@ -1031,7 +1037,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1051,7 +1058,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-61666e3f.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "text/plain",
@@ -1059,7 +1066,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -1085,7 +1093,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -1111,7 +1120,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1139,7 +1149,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1167,7 +1178,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1195,7 +1207,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1223,7 +1236,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1251,7 +1265,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1279,7 +1294,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -1305,7 +1321,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1333,7 +1350,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1353,7 +1371,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "aliases",
+      "name": "aliases.conf",
       "extension": ".conf",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -1361,7 +1379,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1381,7 +1400,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "blacklist",
+      "name": "blacklist.conf",
       "extension": ".conf",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -1389,7 +1408,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1409,7 +1429,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "i386",
+      "name": "i386.conf",
       "extension": ".conf",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -1417,7 +1437,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1437,7 +1458,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "kms",
+      "name": "kms.conf",
       "extension": ".conf",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -1445,7 +1466,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1473,7 +1495,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1501,7 +1524,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1529,7 +1553,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -1555,7 +1580,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1583,7 +1609,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1611,7 +1638,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1639,7 +1667,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1659,7 +1688,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "color_prompt.sh",
+      "name": "color_prompt.sh.disabled",
       "extension": ".disabled",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -1667,7 +1696,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1687,7 +1717,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "locale",
+      "name": "locale.sh",
       "extension": ".sh",
       "programming_language": "Bash",
       "mime_type": "inode/x-empty",
@@ -1695,7 +1725,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1723,7 +1754,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -1749,7 +1781,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1777,7 +1810,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1805,7 +1839,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1833,7 +1868,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1861,7 +1897,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1881,7 +1918,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "ca-certificates",
+      "name": "ca-certificates.crt",
       "extension": ".crt",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -1889,7 +1926,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1909,7 +1947,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "ct_log_list",
+      "name": "ct_log_list.cnf",
       "extension": ".cnf",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -1917,7 +1955,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1937,7 +1976,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "ct_log_list.cnf",
+      "name": "ct_log_list.cnf.dist",
       "extension": ".dist",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -1945,7 +1984,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1965,7 +2005,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "CA",
+      "name": "CA.pl",
       "extension": ".pl",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -1973,7 +2013,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -1993,7 +2034,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "tsget",
+      "name": "tsget.pl",
       "extension": ".pl",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -2001,7 +2042,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2021,7 +2063,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "openssl",
+      "name": "openssl.cnf",
       "extension": ".cnf",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -2029,7 +2071,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2049,7 +2092,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "openssl.cnf",
+      "name": "openssl.cnf.dist",
       "extension": ".dist",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -2057,7 +2100,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2077,7 +2121,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "sysctl",
+      "name": "sysctl.conf",
       "extension": ".conf",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -2085,7 +2129,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2105,7 +2150,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "udhcpd",
+      "name": "udhcpd.conf",
       "extension": ".conf",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -2113,7 +2158,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -2139,7 +2185,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -2165,7 +2212,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -2183,7 +2231,7 @@
       "status": "ignored-not-interesting",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "scripts",
+      "name": "scripts.tar",
       "extension": ".tar",
       "programming_language": "",
       "mime_type": "application/x-tar",
@@ -2191,7 +2239,8 @@
       "is_text": false,
       "is_archive": true,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -2217,7 +2266,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2237,7 +2287,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "ld-musl-x86_64.so",
+      "name": "ld-musl-x86_64.so.1",
       "extension": ".1",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -2245,7 +2295,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2265,7 +2316,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "libapk.so.3.12",
+      "name": "libapk.so.3.12.0",
       "extension": ".0",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -2273,7 +2324,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2293,7 +2345,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "libcrypto.so.1",
+      "name": "libcrypto.so.1.1",
       "extension": ".1",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -2301,7 +2353,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2321,7 +2374,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "libssl.so.1",
+      "name": "libssl.so.1.1",
       "extension": ".1",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -2329,7 +2382,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2349,7 +2403,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "libz.so.1.2",
+      "name": "libz.so.1.2.12",
       "extension": ".12",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -2357,7 +2411,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2377,7 +2432,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "00-alpine",
+      "name": "00-alpine.conf",
       "extension": ".conf",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -2385,7 +2440,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2413,7 +2469,8 @@
       "is_text": false,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2441,7 +2498,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2469,7 +2527,8 @@
       "is_text": false,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2497,7 +2556,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2525,7 +2585,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2553,7 +2614,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2581,7 +2643,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2609,7 +2672,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2637,7 +2701,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2657,7 +2722,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "afalg",
+      "name": "afalg.so",
       "extension": ".so",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2665,7 +2730,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2685,7 +2751,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "capi",
+      "name": "capi.so",
       "extension": ".so",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2693,7 +2759,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2713,7 +2780,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "padlock",
+      "name": "padlock.so",
       "extension": ".so",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2721,7 +2788,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2741,7 +2809,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-4a6a0840.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2749,7 +2817,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2769,7 +2838,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-5243ef4b.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2777,7 +2846,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2797,7 +2867,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-524d27bb.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2805,7 +2875,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2825,7 +2896,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-5261cecb.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2833,7 +2904,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2853,7 +2925,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-58199dcc.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2861,7 +2933,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2881,7 +2954,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-58cbb476.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2889,7 +2962,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2909,7 +2983,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-58e4f17d.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2917,7 +2991,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2937,7 +3012,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-5e69ca50.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2945,7 +3020,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2965,7 +3041,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-60ac2099.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-60ac2099.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -2973,7 +3049,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -2993,7 +3070,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-6165ee59.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -3001,7 +3078,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -3021,7 +3099,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-61666e3f.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -3029,7 +3107,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -3049,7 +3128,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-616a9724.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-616a9724.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -3057,7 +3136,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -3077,7 +3157,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-616abc23.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-616abc23.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -3085,7 +3165,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -3105,7 +3186,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-616ac3bc.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-616ac3bc.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -3113,7 +3194,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -3133,7 +3215,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-616adfeb.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-616adfeb.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -3141,7 +3223,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -3161,7 +3244,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-616ae350.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-616ae350.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -3169,7 +3252,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -3189,7 +3273,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "alpine-devel@lists.alpinelinux.org-616db30d.rsa",
+      "name": "alpine-devel@lists.alpinelinux.org-616db30d.rsa.pub",
       "extension": ".pub",
       "programming_language": "",
       "mime_type": "application/octet-stream",
@@ -3197,7 +3281,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -3217,7 +3302,7 @@
       "status": "system-package",
       "tag": "img-33ebbb-layer-01-8826df",
       "type": "file",
-      "name": "default",
+      "name": "default.script",
       "extension": ".script",
       "programming_language": "",
       "mime_type": "inode/x-empty",
@@ -3225,7 +3310,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     }
   ]
 }

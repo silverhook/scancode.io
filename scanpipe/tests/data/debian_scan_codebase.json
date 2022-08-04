@@ -252,7 +252,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -280,7 +281,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -308,7 +310,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -328,7 +331,7 @@
       "status": "system-package",
       "tag": "img-c19c05-layer-01-8a6376",
       "type": "file",
-      "name": "libncurses5:amd64",
+      "name": "libncurses5:amd64.md5sums",
       "extension": ".md5sums",
       "programming_language": "",
       "mime_type": "text/plain",
@@ -336,7 +339,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [
@@ -356,7 +360,7 @@
       "status": "system-package",
       "tag": "img-c19c05-layer-01-8a6376",
       "type": "file",
-      "name": "libndp0:amd64",
+      "name": "libndp0:amd64.md5sums",
       "extension": ".md5sums",
       "programming_language": "",
       "mime_type": "text/plain",
@@ -364,7 +368,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     },
     {
       "for_packages": [],
@@ -417,7 +422,8 @@
       "is_text": true,
       "is_archive": false,
       "is_key_file": false,
-      "is_media": false
+      "is_media": false,
+      "package_data": []
     }
   ]
 }

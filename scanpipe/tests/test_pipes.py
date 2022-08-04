@@ -313,7 +313,7 @@ class ScanPipePipesTest(TestCase):
         sha256 = "b323607418a36b5bd700fcf52ae9ca49f82ec6359bc4b89b1b2d73cf75321757"
         expected = {
             "type": CodebaseResource.Type.FILE,
-            "name": "notice",
+            "name": "notice.NOTICE",
             "extension": ".NOTICE",
             "is_text": True,
             "size": 1178,
@@ -1222,3 +1222,17 @@ class ScanPipePipesTransactionTest(TransactionTestCase):
         make_codebase_resource(p1, resource_location)
         self.assertEqual(1, p1.codebaseresources.count())
         self.assertEqual(0, p1.projecterrors.count())
+
+    def test_scanpipe_add_to_package(self):
+        project1 = Project.objects.create(name="Analysis")
+        codebase_resource = CodebaseResource.objects.create(
+            project=project1,
+            path="filename.ext",
+        )
+        package1 = update_or_create_package(project1, package_data1)
+        self.assertFalse(codebase_resource.for_packages)
+        scancode.add_to_package(package1.package_uid, codebase_resource, project1)
+        for_packages = codebase_resource.for_packages
+        self.assertEqual(len(for_packages), 1)
+        result_purl = for_packages[0]
+        self.assertEqual(result_purl, package1.purl)
