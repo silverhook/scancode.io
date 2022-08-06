@@ -1985,6 +1985,8 @@ class DiscoveredDependency(
     objects = DiscoveredDependencyQuerySet.as_manager()
 
     class Meta:
+        verbose_name = "discovered dependency"
+        verbose_name_plural = "discovered dependencies"
         ordering = ["dependency_uid"]
         constraints = [
             models.UniqueConstraint(
