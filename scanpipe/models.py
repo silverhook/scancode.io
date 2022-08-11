@@ -2070,7 +2070,13 @@ class DiscoveredDependency(
         # Generate a dependency_uid for this DiscoveredDependency if we do not
         # have one already
         if "dependency_uid" not in dependency_data:
-            dependency_data["dependency_uid"] = build_package_uid(dependency_data.get("purl"))
+            purl = dependency_data.get("purl")
+            try:
+                dependency_data["dependency_uid"] = build_package_uid(purl)
+            except Exception:
+                message = (f"Error generating a dependency_uid from purl: {purl}")
+                project.add_error(error=message, model=cls, details=dependency_data)
+                return
 
         if not for_package:
             for_package_uid = dependency_data.get("for_package_uid")
