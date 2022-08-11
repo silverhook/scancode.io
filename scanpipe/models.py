@@ -2017,7 +2017,7 @@ class DiscoveredDependency(
     @cached_property
     def for_package_uid(self):
         if self.for_package:
-            return self.for_package.package_uid
+            return self.for_package.package_uid or self.for_package.package_url
         else:
             return ""
 
