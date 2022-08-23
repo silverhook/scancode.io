@@ -1500,6 +1500,14 @@ class CodebaseResource(
         blank=True,
         help_text=_("List of Package data detected from this CodebaseResource"),
     )
+    extracted_from = models.ForeignKey(
+        "CodebaseResource",
+        related_name="extracted_to",
+        on_delete=models.CASCADE,
+        editable=False,
+        blank=True,
+        null=True,
+    )
 
     objects = CodebaseResourceQuerySet.as_manager()
 
