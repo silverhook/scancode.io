@@ -20,6 +20,7 @@
 # ScanCode.io is a free software code scanning tool from nexB Inc. and others.
 # Visit https://github.com/nexB/scancode.io for support and download.
 
+from scanpipe import pipes
 from scanpipe.pipelines.root_filesystems import RootFS
 from scanpipe.pipes import docker
 from scanpipe.pipes import rootfs
@@ -85,6 +86,7 @@ class Docker(RootFS):
         """
         for image in self.images:
             docker.create_codebase_resources(self.project, image)
+        pipes.associate_extracted_resources(self.project)
 
     def collect_and_create_system_packages(self):
         """

@@ -212,3 +212,25 @@ def remove_prefix(text, prefix):
         prefix_len = len(prefix)
         return text[prefix_len:]
     return text
+
+
+def associate_extracted_resources(project):
+    """
+    Relate CodebaseResources to the archive CodebaseResource they were extracted
+    from
+    """
+    extracted_dir_ending = "-extract"
+    ending_length = len(extracted_dir_ending)
+    extract_dirs = project.codebaseresources.filter(
+        name__endswith=extracted_dir_ending
+    ).order_by("path")
+    for extract_dir in extract_dirs:
+        extract_dir_path = extract_dir.path
+        archive_path = extract_dir_path[: len(extract_dir_path) - ending_length]
+        archive_resource = project.codebaseresources.get(path=archive_path)
+        extracted_resources = project.codebaseresources.filter(
+            path__startswith=extract_dir_path
+        )
+        for extracted_resource in extracted_resources:
+            extracted_resource.extracted_from = archive_resource
+            extracted_resource.save()

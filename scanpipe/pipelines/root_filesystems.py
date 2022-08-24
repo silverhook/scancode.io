@@ -89,6 +89,7 @@ class RootFS(Pipeline):
         """
         for rfs in self.root_filesystems:
             rootfs.create_codebase_resources(self.project, rfs)
+        pipes.associate_extracted_resources(self.project)
 
     def collect_and_create_system_packages(self):
         """

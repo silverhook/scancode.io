@@ -79,6 +79,7 @@ class ScanCodebase(Pipeline):
                 project=self.project,
                 location=str(resource_path),
             )
+        pipes.associate_extracted_resources(self.project)
 
     def tag_empty_files(self):
         """
