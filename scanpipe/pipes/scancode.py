@@ -471,6 +471,10 @@ def create_codebase_resources(project, scanned_codebase):
             if value is not None:
                 resource_data[field.name] = value
 
+        packages = getattr(scanned_resource, 'packages', [])
+        if packages:
+            resource_data['package_data'] = packages
+
         resource_type = "FILE" if scanned_resource.is_file else "DIRECTORY"
         resource_data["type"] = CodebaseResource.Type[resource_type]
         resource_path = scanned_resource.get_path(strip_root=True)
@@ -618,3 +622,13 @@ def create_inventory_from_scan(project, input_location):
     create_discovered_dependencies(
         project, scanned_codebase, strip_datafile_path_root=True
     )
+
+
+def create_inventory_from_scan2(project, input_location):
+    """
+    Create CodebaseResource and DiscoveredPackage instances loaded from the scan
+    results located at `input_location`.
+    """
+    scanned_codebase = get_virtual_codebase(project, input_location)
+    create_codebase_resources(project, scanned_codebase)
+    assemble_packages(project=project)
