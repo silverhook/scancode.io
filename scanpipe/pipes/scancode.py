@@ -28,6 +28,7 @@ import multiprocessing
 import os
 import shlex
 from collections import defaultdict
+from fnmatch import fnmatchcase
 from functools import partial
 from pathlib import Path
 
@@ -38,6 +39,7 @@ from django.db.models import ObjectDoesNotExist
 from commoncode import fileutils
 from commoncode.resource import VirtualCodebase
 from extractcode import api as extractcode_api
+from packagedcode import APPLICATION_PACKAGE_DATAFILE_HANDLERS
 from packagedcode import get_package_handler
 from packagedcode import models as packagedcode_models
 from scancode import ScancodeError
@@ -451,15 +453,18 @@ def get_virtual_codebase(project, input_location):
     return VirtualCodebase(input_location, temp_dir=str(temp_path), max_in_memory=0)
 
 
-def create_codebase_resources(project, scanned_codebase):
+def create_codebase_resources(project, scanned_codebase, skip_root=True):
     """
     Saves the resources of a ScanCode `scanned_codebase` scancode.resource.Codebase
     object to the database as a CodebaseResource of the `project`.
     This function can be used to expend an existing `project` Codebase with new
     CodebaseResource objects as the existing objects (based on the `path`) will be
     skipped.
+
+    If `skip_root` is True, then we omit the leading root path segments when
+    creating CodebaseResources.
     """
-    for scanned_resource in scanned_codebase.walk(skip_root=True):
+    for scanned_resource in scanned_codebase.walk(skip_root=skip_root):
         resource_data = {}
 
         for field in CodebaseResource._meta.fields:
@@ -471,13 +476,13 @@ def create_codebase_resources(project, scanned_codebase):
             if value is not None:
                 resource_data[field.name] = value
 
-        packages = getattr(scanned_resource, 'packages', [])
+        packages = getattr(scanned_resource, "packages", [])
         if packages:
-            resource_data['package_data'] = packages
+            resource_data["package_data"] = packages
 
         resource_type = "FILE" if scanned_resource.is_file else "DIRECTORY"
         resource_data["type"] = CodebaseResource.Type[resource_type]
-        resource_path = scanned_resource.get_path(strip_root=True)
+        resource_path = scanned_resource.get_path(strip_root=skip_root)
 
         codebase_resource, _ = CodebaseResource.objects.get_or_create(
             project=project,
@@ -624,11 +629,24 @@ def create_inventory_from_scan(project, input_location):
     )
 
 
+def set_package_datasource_id(
+    project, datafile_handlers=APPLICATION_PACKAGE_DATAFILE_HANDLERS
+):
+    for resource in project.codebaseresources.has_package_data():
+        for handler in datafile_handlers:
+            if any(fnmatchcase(resource.path, pat) for pat in handler.path_patterns):
+                for package_data in resource.package_data:
+                    package_data["datasource_id"] = handler.datasource_id
+                resource.save()
+                break
+
+
 def create_inventory_from_scan2(project, input_location):
     """
     Create CodebaseResource and DiscoveredPackage instances loaded from the scan
     results located at `input_location`.
     """
     scanned_codebase = get_virtual_codebase(project, input_location)
-    create_codebase_resources(project, scanned_codebase)
+    create_codebase_resources(project, scanned_codebase, skip_root=False)
+    set_package_datasource_id(project)
     assemble_packages(project=project)
